@@ -9,7 +9,7 @@ const Color kLightColor = Color(0xFFF7F7F7); // #F7F7F7
 final ThemeData shiftSlTheme = ThemeData(
   primaryColor: kPrimaryColor,
 
-  scaffoldBackgroundColor: kLightColor,
+  scaffoldBackgroundColor: const Color(0xFFF7F7F7),
 
   fontFamily: 'Inter',
 
@@ -28,15 +28,15 @@ final ThemeData shiftSlTheme = ThemeData(
   ),
 
   // Style for ElevatedButtons
-  elevatedButtonTheme: ElevatedButtonThemeData(
-    style: ElevatedButton.styleFrom(
-      backgroundColor: kSecondaryColor,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
-      ),
-      textStyle: const TextStyle(fontWeight: FontWeight.bold),
-    ),
-  ),
+  // elevatedButtonTheme: ElevatedButtonThemeData(
+  //   style: ElevatedButton.styleFrom(
+  //     backgroundColor: kSecondaryColor,
+  //     shape: RoundedRectangleBorder(
+  //       borderRadius: BorderRadius.circular(12),
+  //     ),
+  //     textStyle: const TextStyle(fontWeight: FontWeight.bold),
+  //   ),
+  // ),
 
   // Define text styles. Adjust sizes and weights as needed.
   textTheme: const TextTheme(
